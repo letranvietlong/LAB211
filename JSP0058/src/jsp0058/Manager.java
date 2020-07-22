@@ -91,6 +91,7 @@ public class Manager {
             }
             b.flush();
             b.close();
+            System.err.println("Delete Succesfull!");
         } catch (Exception e) {
             e.printStackTrace();
         }
